@@ -74,6 +74,8 @@
     <Content Include="3-Cross-Page-Posting\CrossPage2.aspx" />
     <Content Include="4-Cookies\cookie.aspx" />
     <Content Include="4-Cookies\cookie_yaz.aspx" />
+    <Content Include="5-Sessions\Session.aspx" />
+    <Content Include="5-Sessions\Session_kullan.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -125,6 +127,20 @@
     </Compile>
     <Compile Include="4-Cookies\cookie_yaz.aspx.designer.cs">
       <DependentUpon>cookie_yaz.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="5-Sessions\Session.aspx.cs">
+      <DependentUpon>Session.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="5-Sessions\Session.aspx.designer.cs">
+      <DependentUpon>Session.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="5-Sessions\Session_kullan.aspx.cs">
+      <DependentUpon>Session_kullan.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="5-Sessions\Session_kullan.aspx.designer.cs">
+      <DependentUpon>Session_kullan.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
