@@ -72,6 +72,8 @@
     <Content Include="2-Request-QueryString\request.aspx" />
     <Content Include="3-Cross-Page-Posting\CrossPage.aspx" />
     <Content Include="3-Cross-Page-Posting\CrossPage2.aspx" />
+    <Content Include="4-Cookies\cookie.aspx" />
+    <Content Include="4-Cookies\cookie_yaz.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -109,6 +111,20 @@
     </Compile>
     <Compile Include="3-Cross-Page-Posting\CrossPage2.aspx.designer.cs">
       <DependentUpon>CrossPage2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="4-Cookies\cookie.aspx.cs">
+      <DependentUpon>cookie.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="4-Cookies\cookie.aspx.designer.cs">
+      <DependentUpon>cookie.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="4-Cookies\cookie_yaz.aspx.cs">
+      <DependentUpon>cookie_yaz.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="4-Cookies\cookie_yaz.aspx.designer.cs">
+      <DependentUpon>cookie_yaz.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
