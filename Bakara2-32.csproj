@@ -67,16 +67,32 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Ornek1.aspx" />
+    <Content Include="1-IsPostBack-Response\Ornek1.aspx" />
+    <Content Include="2-Request-QueryString\gelenIstek.aspx" />
+    <Content Include="2-Request-QueryString\request.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Ornek1.aspx.cs">
+    <Compile Include="1-IsPostBack-Response\Ornek1.aspx.cs">
       <DependentUpon>Ornek1.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Ornek1.aspx.designer.cs">
+    <Compile Include="1-IsPostBack-Response\Ornek1.aspx.designer.cs">
       <DependentUpon>Ornek1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="2-Request-QueryString\gelenIstek.aspx.cs">
+      <DependentUpon>gelenIstek.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="2-Request-QueryString\gelenIstek.aspx.designer.cs">
+      <DependentUpon>gelenIstek.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="2-Request-QueryString\request.aspx.cs">
+      <DependentUpon>request.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="2-Request-QueryString\request.aspx.designer.cs">
+      <DependentUpon>request.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
