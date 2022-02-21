@@ -76,6 +76,18 @@
     <Content Include="4-Cookies\cookie_yaz.aspx" />
     <Content Include="5-Sessions\Session.aspx" />
     <Content Include="5-Sessions\Session_kullan.aspx" />
+    <Content Include="6-Web-Form-Kontrolleri\Kontroller.aspx" />
+    <Content Include="Ads.xml" />
+    <Content Include="Resimler\1.png" />
+    <Content Include="Resimler\10.png" />
+    <Content Include="Resimler\2.png" />
+    <Content Include="Resimler\3.png" />
+    <Content Include="Resimler\4.png" />
+    <Content Include="Resimler\5.png" />
+    <Content Include="Resimler\6.png" />
+    <Content Include="Resimler\7.png" />
+    <Content Include="Resimler\8.png" />
+    <Content Include="Resimler\9.png" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -141,6 +153,13 @@
     </Compile>
     <Compile Include="5-Sessions\Session_kullan.aspx.designer.cs">
       <DependentUpon>Session_kullan.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="6-Web-Form-Kontrolleri\Kontroller.aspx.cs">
+      <DependentUpon>Kontroller.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="6-Web-Form-Kontrolleri\Kontroller.aspx.designer.cs">
+      <DependentUpon>Kontroller.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
