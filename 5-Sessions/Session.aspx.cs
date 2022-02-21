@@ -20,6 +20,10 @@ namespace Bakara2_32._5_Sessions
             İstemci sunucuya bağlandığı zaman sunucu sadece o istemciye özel bir SessionId numarası atar.Ve bunu bir Cookie'de saklar.Böylece oturum boyunca 
             sadece o kullanıcıya ait değerleri saklar ve elde eder.
 
+            //Session.Abandon(); Session Nesnesini Sonlandırmak İçin Kullanılır.
+            //Session.Timeout=20; Oturumun kullanıcı hiç dokunmadığından kaç dakika sonra sonlandırılacağını belirler.Default 20 dakikadır.
+
+
              */
             Session["renk"] = "Mavi";
         }

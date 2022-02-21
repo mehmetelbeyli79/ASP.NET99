@@ -12,7 +12,8 @@ namespace Bakara2_32._5_Sessions
         protected void Page_Load(object sender, EventArgs e)
         {
             Response.Write("<b>Renk:</b>" + Session["renk"]);
-            Response.Write(Session.SessionID);//Oluşturulan bu id Cookie şeklinde saklanıyor ine
+            Response.Write(Session.SessionID);//Oluşturulan bu id Cookie şeklinde saklanıyor yine
+            
         }
     }
 }
