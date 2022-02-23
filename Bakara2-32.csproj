@@ -78,6 +78,8 @@
     <Content Include="5-Sessions\Session_kullan.aspx" />
     <Content Include="6-Web-Form-Kontrolleri\Kontroller.aspx" />
     <Content Include="7-Veritabani-Islemleri\Baglanti.aspx" />
+    <Content Include="7-Veritabani-Islemleri\DataAdapterveDataSet.aspx" />
+    <Content Include="7-Veritabani-Islemleri\DataTableveOledbCommand.aspx" />
     <Content Include="7-Veritabani-Islemleri\ornek_veritabani.accdb" />
     <Content Include="Ads.xml" />
     <Content Include="Resimler\1.png" />
@@ -169,6 +171,20 @@
     </Compile>
     <Compile Include="7-Veritabani-Islemleri\Baglanti.aspx.designer.cs">
       <DependentUpon>Baglanti.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="7-Veritabani-Islemleri\DataAdapterveDataSet.aspx.cs">
+      <DependentUpon>DataAdapterveDataSet.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="7-Veritabani-Islemleri\DataAdapterveDataSet.aspx.designer.cs">
+      <DependentUpon>DataAdapterveDataSet.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="7-Veritabani-Islemleri\DataTableveOledbCommand.aspx.cs">
+      <DependentUpon>DataTableveOledbCommand.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="7-Veritabani-Islemleri\DataTableveOledbCommand.aspx.designer.cs">
+      <DependentUpon>DataTableveOledbCommand.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
